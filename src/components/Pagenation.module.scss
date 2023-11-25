@@ -6,10 +6,28 @@
 
   .first,
   .pre10,
-  pre {
-    width: 20px;
+  .pre {
+    margin-right: 5px;
+    img {
+      transform: rotate(180deg);
+      width: 20px;
+    }
+  }
+  .next,
+  .next10,
+  .last {
+    margin-left: 5px;
     img {
       width: 20px;
+    }
+  }
+
+  .pre,
+  .first,
+  .next,
+  .last {
+    img {
+      width: 15px;
     }
   }
 
